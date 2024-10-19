@@ -12,3 +12,5 @@ bool Now(ToggleSwitch& In);
 bool NowInvarse(ToggleSwitch& In);
 bool Set(ToggleSwitch& In, bool B);
 bool Get(ToggleSwitch& In);
+bool IsOff(ToggleSwitch&);
+bool IsOn(ToggleSwitch&);

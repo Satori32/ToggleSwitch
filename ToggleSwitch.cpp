@@ -31,3 +31,9 @@ bool Set(ToggleSwitch& In, bool B) {
 bool Get(ToggleSwitch& In) {
 	return In.F;
 }
+bool IsOff(ToggleSwitch& In) {
+	return In.F==false;
+}
+bool IsOn(ToggleSwitch& In) {
+	return In.F==true;
+}
