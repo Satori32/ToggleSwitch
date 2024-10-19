@@ -24,3 +24,10 @@ bool Now(ToggleSwitch& In) {
 bool NowInvarse(ToggleSwitch& In) {
 	return !In.F;
 }
+bool Set(ToggleSwitch& In, bool B) {
+	In.F = B;
+	return true;
+}
+bool Get(ToggleSwitch& In) {
+	return In.F;
+}
